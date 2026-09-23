@@ -1,0 +1,21 @@
+{
+  "name": "opencode-cursor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "bun src/cli.ts login",
+    "serve": "bun src/cli.ts serve",
+    "check": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@oh-my-pi/pi-ai": "18.2.11",
+    "@oh-my-pi/pi-catalog": "18.2.11",
+    "@opencode/plugin": "2.0.10"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.0",
+    "typescript": "^5.9.3"
+  }
+}
